@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://d2alqw0tnjrlg"]
 
-[ext_resource type="Script" uid="uid://0ej80ibxiapc" path="res://scenes/double_jump.gd" id="1_26v2x"]
+[ext_resource type="Script" uid="uid://0ej80ibxiapc" path="res://Scripts/double_jump.gd" id="1_26v2x"]
 [ext_resource type="Texture2D" uid="uid://b4mjp2h67em2q" path="res://Sprites/double jump medallion but smol.png" id="1_t1pki"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_osx2o"]
@@ -16,4 +16,8 @@ shape = SubResource("CircleShape2D_osx2o")
 position = Vector2(-0.5, -0.5)
 texture = ExtResource("1_t1pki")
 
+[node name="Timer" type="Timer" parent="." unique_id=776567138]
+wait_time = 10.0
+
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
