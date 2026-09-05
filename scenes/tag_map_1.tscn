@@ -1,7 +1,8 @@
 [gd_scene format=4 uid="uid://dm4htkxsh146r"]
 
-[ext_resource type="PackedScene" uid="uid://cgvinqulh4rrw" path="res://Characters/character.tscn" id="1_h7og5"]
+[ext_resource type="PackedScene" uid="uid://cgvinqulh4rrw" path="res://scenes/character.tscn" id="1_h7og5"]
 [ext_resource type="Texture2D" uid="uid://wi8rqjbiurep" path="res://Sprites/Tileset.png" id="2_jtla5"]
+[ext_resource type="PackedScene" uid="uid://d2alqw0tnjrlg" path="res://scenes/Double jump.tscn" id="3_eina7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eina7"]
 texture = ExtResource("2_jtla5")
@@ -45,6 +46,7 @@ sources/0 = SubResource("TileSetAtlasSource_eina7")
 [node name="Tag Map 1" type="Node2D" unique_id=2147414435]
 
 [node name="CharacterBody2D" parent="." unique_id=1375343869 instance=ExtResource("1_h7og5")]
+unique_name_in_owner = true
 position = Vector2(14, -630)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1483771133]
@@ -56,3 +58,6 @@ rotation_smoothing_enabled = true
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=105408145]
 tile_map_data = PackedByteArray("AAAAAO//AAAAAAAAAAABAO//AAAAAAAAAAACAO//AAAAAAAAAAADAO//AAAAAAAAAAAEAO//AAAAAAAAAAAFAO//AAAAAAAAAAAGAO//AAAAAAAAAAAHAO//AAAAAAAAAAAIAO//AAAAAAAAAAAJAO//AAAAAAAAAAAKAO//AAAAAAAAAAALAO//AAAAAAAAAAAMAO//AAAAAAAAAAANAO//AAAAAAAAAAAOAO//AAAAAAAAAAAPAO7/AAAAAAAAAAD//+//AAAAAAAAAAD+/+//AAAAAAAAAAD9/+//AAAAAAAAAAD8/+//AAAAAAAAAAD7/+//AAAAAAAAAAD6/+//AAAAAAAAAAD5/+//AAAAAAAAAAD4/+//AAAAAAAAAAD3/+//AAAAAAAAAAD3/+7/AAAAAAAAAAD3/+3/AAAAAAAAAAD3/+z/AAAAAAAAAAD3/+v/AAAAAAAAAAD3/+r/AAAAAAAAAAD3/+n/AAAAAAAAAAD3/+j/AAAAAAAAAAD3/+f/AAAAAAAAAAD3/+b/AAAAAAAAAAAPAO//AAAAAAAAAAAPAOf/AAAAAAAAAAAPAOj/AAAAAAAAAAAPAOn/AAAAAAAAAAAPAOr/AAAAAAAAAAAPAOv/AAAAAAAAAAAPAOz/AAAAAAAAAAAPAO3/AAAAAAAAAAAPAOb/AAAAAAAAAAAPAN7/AAAAAAAAAAAPAN//AAAAAAAAAAAPAOD/AAAAAAAAAAAPAOH/AAAAAAAAAAAPAOL/AAAAAAAAAAAPAOP/AAAAAAAAAAAPAOT/AAAAAAAAAAAPAOX/AAAAAAAAAAD3/93/AAAAAAAAAAD3/97/AAAAAAAAAAD3/9//AAAAAAAAAAD3/+D/AAAAAAAAAAD3/+H/AAAAAAAAAAD3/+L/AAAAAAAAAAD3/+P/AAAAAAAAAAD3/+T/AAAAAAAAAAD3/+X/AAAAAAAAAAAPAN3/AAAAAAAAAAD8/+r/AAAAAAAAAAD9/+r/AAAAAAAAAAD+/+r/AAAAAAAAAAAEAOf/AAAAAAAAAAAFAOf/AAAAAAAAAAAGAOf/AAAAAAAAAAAHAOf/AAAAAAAAAAAIAOf/AAAAAAAAAAAJAOD/AAAAAAAAAAAKAOD/AAAAAAAAAAALAOD/AAAAAAAAAAD9/+P/AAAAAAAAAAD+/+P/AAAAAAAAAAD//+P/AAAAAAAAAAD//93/AAAAAAAAAAAAAN3/AAAAAAAAAAABAN3/AAAAAAAAAAA=")
 tile_set = SubResource("TileSet_5mra2")
+
+[node name="Area2D" parent="." unique_id=21874621 instance=ExtResource("3_eina7")]
+position = Vector2(57, -478)

@@ -2,17 +2,19 @@ extends CharacterBody2D
 
 const SPEED = 200.0
 const JUMP_VELOCITY = -400.0
-const COYOTE_TIME := 0.15
+const COYOTE_TIME := 0.1
 const JUMP_BUFFER_TIME := 0.15
-
+var  can_double_jump:= false
 var coyote_timer := 0.0
 var jump_buffer_timer := 0.0
 
 @onready var animated_sprite = $AnimatedSprite2D
-
 func _physics_process(delta: float) -> void:
+
 	var direction := Input.get_axis("a", "d")
 	
+		
+		
 	if direction != 0:
 		animated_sprite.flip_h = direction < 0
 	
@@ -28,7 +30,7 @@ func _physics_process(delta: float) -> void:
 		jump_buffer_timer -= delta
 	
 	if jump_buffer_timer > 0.0 and coyote_timer > 0.0:
-		velocity.y = JUMP_VELOCITY		
+		velocity.y = JUMP_VELOCITY
 		coyote_timer = 0.0 
 		jump_buffer_timer = 0.0
 
@@ -36,6 +38,7 @@ func _physics_process(delta: float) -> void:
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
+		
 
 	move_and_slide()
 

@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://ck27rtgk8gvt5" path="res://Sprites/tag spritsheet.png" id="2_ticvp"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e3gty"]
-radius = 12.0
-height = 40.0
+radius = 24.0
+height = 48.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3mn46"]
 atlas = ExtResource("2_ticvp")
@@ -104,13 +104,12 @@ animations = [{
 script = ExtResource("1_ticvp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1730815632]
-position = Vector2(54, -10)
 scale = Vector2(0.5, 0.5)
 shape = SubResource("CapsuleShape2D_e3gty")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002238940]
-position = Vector2(51, -9)
-scale = Vector2(0.8828125, 0.7890625)
+position = Vector2(-2, 0)
+scale = Vector2(1.119, 1)
 sprite_frames = SubResource("SpriteFrames_e3gty")
 animation = &"Run"
 autoplay = "Idle"

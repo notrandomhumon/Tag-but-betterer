@@ -1,0 +1,6 @@
+res://Characters/character.tscn
+res://scenes/tag_map_1.tscn
+res://scenes/character.tscn
+res://Scripts/Script.gd
+res://scenes/Double jump.tscn
+res://scenes/double_jump.gd
