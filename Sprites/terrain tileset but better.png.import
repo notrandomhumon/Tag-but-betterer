@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wi8rqjbiurep"
-path="res://.godot/imported/Tileset.png-1a414b7107dec576154e767e32be6ae4.ctex"
+uid="uid://b7dhiaokmdl2g"
+path="res://.godot/imported/terrain tileset but better.png-92dafbfbc1e56f54b950c2ab1fed7fd9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Tileset.png"
-dest_files=["res://.godot/imported/Tileset.png-1a414b7107dec576154e767e32be6ae4.ctex"]
+source_file="res://Sprites/terrain tileset but better.png"
+dest_files=["res://.godot/imported/terrain tileset but better.png-92dafbfbc1e56f54b950c2ab1fed7fd9.ctex"]
 
 [params]
 

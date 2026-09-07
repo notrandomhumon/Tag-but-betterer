@@ -1,14 +1,15 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1788636365
-::res://scenes/::1788570810
-character.tscn::PackedScene::5237836185092541780::1788562990::0::1::::<><><>0<>0<><>::uid://iekg15j0nol5::::res://Scripts/Script.gd<>uid://ck27rtgk8gvt5::::res://Sprites/tag spritsheet.png
-Double jump.tscn::PackedScene::9055058483943919736::1788636460::0::1::::<><><>0<>0<><>::uid://0ej80ibxiapc::::res://scenes/double_jump.gd<>uid://b4mjp2h67em2q::::res://Sprites/double jump medallion but smol.png
-tag_map_1.tscn::PackedScene::8061854640229235043::1788567133::0::1::::<><><>0<>0<><>::uid://cgvinqulh4rrw::::res://scenes/character.tscn<>uid://wi8rqjbiurep::::res://Sprites/Tileset.png<>uid://d2alqw0tnjrlg::::res://scenes/Double jump.tscn
-::res://Scripts/::1788570859
-double_jump.gd::GDScript::1763585311619483472::1788570807::0::1::::<>Area2D<><>0<>0<><>::
-Script.gd::GDScript::570387557205683172::1788570856::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://Sprites/::1788563702
-double jump medallion but smol.png::CompressedTexture2D::4447244352483746838::1788563693::1788563696::1::::<><><>0<>0<>9a0164df3f1703550ffa3c91b86d4461<>res://.godot/imported/double jump medallion but smol.png-f11f5a403a5f4acd47609b70fb5a3a00.ctex::
-double jump medallion.png::CompressedTexture2D::1087759586022200230::1788562817::1788562821::1::::<><><>0<>0<>6f4d93d5496c182256711206f86d2ea1<>res://.godot/imported/double jump medallion.png-0a1cb8176c1f245d2126bba0ed51f29f.ctex::
+::res://::1788746602
+::res://scenes/::1788746602
+character.tscn::PackedScene::5237836185092541780::1788746519::0::1::::<><><>0<>0<><>::uid://iekg15j0nol5::::res://Scripts/Script.gd<>uid://ck27rtgk8gvt5::::res://Sprites/tag spritsheet.png
+Double jump.tscn::PackedScene::9055058483943919736::1788746518::0::1::::<><><>0<>0<><>::uid://0ej80ibxiapc::::res://Scripts/double_jump.gd<>uid://b4mjp2h67em2q::::res://Sprites/double jump medallion but smol.png
+tag_map_1.tscn::PackedScene::8061854640229235043::1788746521::0::1::::<><><>0<>0<><>::uid://cgvinqulh4rrw::::res://scenes/character.tscn<>uid://wi8rqjbiurep::::res://Sprites/Tileset.png<>uid://d2alqw0tnjrlg::::res://scenes/Double jump.tscn
+::res://Scripts/::1788746523
+double_jump.gd::GDScript::1763585311619483472::1788746506::0::1::::<>Area2D<><>0<>0<><>::
+Script.gd::GDScript::570387557205683172::1788746506::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Sprites/::1788746602
+double jump medallion but smol.png::CompressedTexture2D::4447244352483746838::1788746508::1788746511::1::::<><><>0<>0<>9a0164df3f1703550ffa3c91b86d4461<>res://.godot/imported/double jump medallion but smol.png-f11f5a403a5f4acd47609b70fb5a3a00.ctex::
+double jump medallion.png::CompressedTexture2D::1087759586022200230::1788746513::1788746516::1::::<><><>0<>0<>6f4d93d5496c182256711206f86d2ea1<>res://.godot/imported/double jump medallion.png-0a1cb8176c1f245d2126bba0ed51f29f.ctex::
 tag spritsheet.png::CompressedTexture2D::5532442313102243320::1788554814::1788555604::1::::<><><>0<>0<>3273b4f89084e6687ba54f5a9fc8b14f<>res://.godot/imported/tag spritsheet.png-7d7b2e15d74bd379b3744e8edb4c1fbb.ctex::
+terrain tileset but better.png::CompressedTexture2D::4639096140770704736::1788746597::1788746602::1::::<><><>0<>0<>236be7ebd10cec4de3875efc4c8653f9<>res://.godot/imported/terrain tileset but better.png-92dafbfbc1e56f54b950c2ab1fed7fd9.ctex::
 Tileset.png::CompressedTexture2D::1562704455660641243::1788554814::1788555604::1::::<><><>0<>0<>50b9c9969533b1f03a46b14dfa7820f4<>res://.godot/imported/Tileset.png-1a414b7107dec576154e767e32be6ae4.ctex::
