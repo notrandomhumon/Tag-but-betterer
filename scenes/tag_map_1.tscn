@@ -94,6 +94,7 @@ position = Vector2(-94, -474)
 
 [node name="blue character" parent="." unique_id=1375343869 instance=ExtResource("1_h7og5")]
 unique_name_in_owner = true
+position = Vector2(36, -563)
 
 [node name="red character" parent="." unique_id=102461780 instance=ExtResource("4_cj20n")]
 unique_name_in_owner = true
