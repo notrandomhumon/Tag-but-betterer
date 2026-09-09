@@ -1,14 +1,17 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1788894924
-::res://scenes/::1788887805
-character.tscn::PackedScene::5237836185092541780::1788887704::0::1::::<><><>0<>0<><>::uid://iekg15j0nol5::::res://Scripts/Script.gd<>uid://ck27rtgk8gvt5::::res://Sprites/tag spritsheet.png
-Double jump.tscn::PackedScene::9055058483943919736::1788887704::0::1::::<><><>0<>0<><>::uid://0ej80ibxiapc::::res://Scripts/double_jump.gd<>uid://b4mjp2h67em2q::::res://Sprites/double jump medallion but smol.png
-tag_map_1.tscn::PackedScene::8061854640229235043::1788887704::0::1::::<><><>0<>0<><>::uid://cgvinqulh4rrw::::res://scenes/character.tscn<>uid://wi8rqjbiurep::::res://Sprites/Tileset.png<>uid://d2alqw0tnjrlg::::res://scenes/Double jump.tscn
-::res://Scripts/::1788887805
-double_jump.gd::GDScript::1763585311619483472::1788887704::0::1::::<>Area2D<><>0<>0<><>::
-Script.gd::GDScript::570387557205683172::1788887704::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://Sprites/::1788887805
-double jump medallion but smol.png::CompressedTexture2D::4447244352483746838::1788887704::1788887704::1::::<><><>0<>0<>9a0164df3f1703550ffa3c91b86d4461<>res://.godot/imported/double jump medallion but smol.png-f11f5a403a5f4acd47609b70fb5a3a00.ctex::
-double jump medallion.png::CompressedTexture2D::1087759586022200230::1788887704::1788887704::1::::<><><>0<>0<>6f4d93d5496c182256711206f86d2ea1<>res://.godot/imported/double jump medallion.png-0a1cb8176c1f245d2126bba0ed51f29f.ctex::
-tag spritsheet.png::CompressedTexture2D::5532442313102243320::1788378779::1788555304::1::::<><><>0<>0<>3273b4f89084e6687ba54f5a9fc8b14f<>res://.godot/imported/tag spritsheet.png-7d7b2e15d74bd379b3744e8edb4c1fbb.ctex::
-terrain tileset but better.png::CompressedTexture2D::4639096140770704736::1788887704::1788887704::1::::<><><>0<>0<>236be7ebd10cec4de3875efc4c8653f9<>res://.godot/imported/terrain tileset but better.png-92dafbfbc1e56f54b950c2ab1fed7fd9.ctex::
+::res://::1788970234
+::res://scenes/::1788970233
+blue character.tscn::PackedScene::5237836185092541780::1788970245::0::1::::<><><>0<>0<><>::uid://iekg15j0nol5::::res://Scripts/Script.gd<>uid://ck27rtgk8gvt5::::res://Sprites/tag spritsheet.png
+Double jump.tscn::PackedScene::9055058483943919736::1788910078::0::1::::<><><>0<>0<><>::uid://0ej80ibxiapc::::res://Scripts/double_jump.gd<>uid://b4mjp2h67em2q::::res://Sprites/double jump medallion but smol.png
+red character.tscn::PackedScene::8774811340228248201::1788970213::0::1::::<><><>0<>0<><>::uid://boexy481khfc4::::res://Sprites/The cooler spritesheet.png
+tag_map_1.tscn::PackedScene::8061854640229235043::1788970128::0::1::::<><><>0<>0<><>::uid://cgvinqulh4rrw::::res://scenes/blue character.tscn<>uid://b7dhiaokmdl2g::::res://Sprites/terrain tileset but better.png<>uid://d2alqw0tnjrlg::::res://scenes/Double jump.tscn
+::res://Scripts/::1788970233
+double_jump.gd::GDScript::1763585311619483472::1788910063::0::1::::<>Area2D<><>0<>0<><>::
+red_character.gd::GDScript::7308989635199727625::1788970245::0::1::::<>RefCounted<><>0<>0<><>::
+blue_character.gd::GDScript::570387557205683172::1788967109::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Sprites/::1788968363
+double jump medallion but smol.png::CompressedTexture2D::4447244352483746838::1788910066::1788910078::1::::<><><>0<>0<>9a0164df3f1703550ffa3c91b86d4461<>res://.godot/imported/double jump medallion but smol.png-f11f5a403a5f4acd47609b70fb5a3a00.ctex::
+double jump medallion.png::CompressedTexture2D::1087759586022200230::1788910068::1788910078::1::::<><><>0<>0<>6f4d93d5496c182256711206f86d2ea1<>res://.godot/imported/double jump medallion.png-0a1cb8176c1f245d2126bba0ed51f29f.ctex::
+tag spritsheet.png::CompressedTexture2D::5532442313102243320::1788554814::1788555604::1::::<><><>0<>0<>3273b4f89084e6687ba54f5a9fc8b14f<>res://.godot/imported/tag spritsheet.png-7d7b2e15d74bd379b3744e8edb4c1fbb.ctex::
+terrain tileset but better.png::CompressedTexture2D::4639096140770704736::1788910070::1788910078::1::::<><><>0<>0<>236be7ebd10cec4de3875efc4c8653f9<>res://.godot/imported/terrain tileset but better.png-92dafbfbc1e56f54b950c2ab1fed7fd9.ctex::
+The cooler spritesheet.png::CompressedTexture2D::3378762930879805005::1788968303::1788968303::1::::<><><>0<>0<>4db323b0b7ee7a0a83cab471287950c8<>res://.godot/imported/The cooler spritesheet.png-735893be20b401ad790ca7cb1fa6ed38.ctex::

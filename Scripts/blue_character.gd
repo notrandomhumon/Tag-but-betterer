@@ -19,7 +19,7 @@ func _physics_process(delta: float) -> void:
 			double_jump_time_remaining -= delta
 		else:
 			double_jump_collected = false
-
+			double_jump_time_remaining = 10.0
 	
 		
 		

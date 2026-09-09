@@ -1,11 +1,14 @@
 extends Area2D
 
-@onready var character_body_2d: CharacterBody2D = %CharacterBody2D
-@onready var timer: Timer = $Timer
+@onready var red_character: CharacterBody2D = %"red character"
+@onready var blue_character: CharacterBody2D = %"blue character"
 
+func _on_body_entered(body) -> void:
+	if body.name == red_character:
+		
+		queue_free()
+	
 
-func _on_body_entered(_body) -> void:
-	queue_free()
-	character_body_2d.double_jump_collected = true
+	
 	
 	
