@@ -19,7 +19,7 @@ func _physics_process(delta: float) -> void:
 			double_jump_time_remaining -= delta
 		else:
 			double_jump_collected = false
-
+			double_jump_time_remaining = 10.0
 	
 		
 		
@@ -76,3 +76,7 @@ func _physics_process(delta: float) -> void:
 			animated_sprite.play("Run")
 		else:
 			animated_sprite.play("Idle")
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	pass # Replace with function body.

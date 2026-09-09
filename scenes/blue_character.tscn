@@ -1,11 +1,8 @@
 [gd_scene format=3 uid="uid://cgvinqulh4rrw"]
 
-[ext_resource type="Script" uid="uid://iekg15j0nol5" path="res://Scripts/Script.gd" id="1_ticvp"]
+[ext_resource type="Script" uid="uid://iekg15j0nol5" path="res://Scripts/blue_character.gd" id="1_gpxev"]
 [ext_resource type="Texture2D" uid="uid://ck27rtgk8gvt5" path="res://Sprites/tag spritsheet.png" id="2_ticvp"]
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e3gty"]
-radius = 24.0
-height = 48.0
+[ext_resource type="Script" uid="uid://tteglb1mvo10" path="res://Scripts/Tagging(blue).gd" id="3_j3yyv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3mn46"]
 atlas = ExtResource("2_ticvp")
@@ -89,7 +86,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"fall",
-"speed": 11.0
+"speed": 9.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -100,16 +97,31 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1375343869]
-script = ExtResource("1_ticvp")
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e3gty"]
+radius = 16.0
+height = 48.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_e3gty"]
+
+[node name="blue_character" type="CharacterBody2D" unique_id=1375343869]
+collision_layer = 4
+script = ExtResource("1_gpxev")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002238940]
+sprite_frames = SubResource("SpriteFrames_e3gty")
+animation = &"Idle"
+autoplay = "Idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1730815632]
+position = Vector2(2, 0)
 scale = Vector2(0.5, 0.5)
 shape = SubResource("CapsuleShape2D_e3gty")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002238940]
-position = Vector2(-2, 0)
-scale = Vector2(1.119, 1)
-sprite_frames = SubResource("SpriteFrames_e3gty")
-animation = &"fall"
-autoplay = "Idle"
+[node name="Area2D" type="Area2D" parent="." unique_id=319056964]
+script = ExtResource("3_j3yyv")
+
+[node name="Taghitboxblue" type="CollisionShape2D" parent="Area2D" unique_id=970397225]
+position = Vector2(1, 0)
+shape = SubResource("CircleShape2D_e3gty")
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
