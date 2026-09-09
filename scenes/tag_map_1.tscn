@@ -96,6 +96,8 @@ position = Vector2(-94, -474)
 unique_name_in_owner = true
 position = Vector2(36, -563)
 
+[node name="Camera2D" type="Camera2D" parent="blue character" unique_id=1010568406]
+
 [node name="red character" parent="." unique_id=102461780 instance=ExtResource("4_cj20n")]
 unique_name_in_owner = true
 position = Vector2(-26, -622)
