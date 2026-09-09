@@ -89,7 +89,7 @@ animations = [{
 }],
 "loop": 0,
 "name": &"fall",
-"speed": 5.0
+"speed": 11.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -111,5 +111,5 @@ shape = SubResource("CapsuleShape2D_e3gty")
 position = Vector2(-2, 0)
 scale = Vector2(1.119, 1)
 sprite_frames = SubResource("SpriteFrames_e3gty")
-animation = &"Run"
+animation = &"fall"
 autoplay = "Idle"
