@@ -1,9 +1,9 @@
 [gd_scene format=4 uid="uid://dm4htkxsh146r"]
 
-[ext_resource type="PackedScene" uid="uid://cgvinqulh4rrw" path="res://scenes/blue_character.tscn" id="1_h7og5"]
+[ext_resource type="PackedScene" uid="uid://cgvinqulh4rrw" path="res://scenes/blue character.tscn" id="1_h7og5"]
 [ext_resource type="Texture2D" uid="uid://b7dhiaokmdl2g" path="res://Sprites/terrain tileset but better.png" id="2_eina7"]
 [ext_resource type="PackedScene" uid="uid://d2alqw0tnjrlg" path="res://scenes/Double jump.tscn" id="3_eina7"]
-[ext_resource type="PackedScene" uid="uid://dxat4jbhlruvx" path="res://scenes/red_character.tscn" id="4_cj20n"]
+[ext_resource type="PackedScene" uid="uid://dxat4jbhlruvx" path="res://scenes/red character.tscn" id="4_cj20n"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cj20n"]
 texture = ExtResource("2_eina7")
@@ -92,18 +92,12 @@ position = Vector2(405, -384)
 [node name="Area2D" parent="." unique_id=21874621 instance=ExtResource("3_eina7")]
 position = Vector2(-94, -474)
 
-[node name="blue_character" parent="." unique_id=1375343869 instance=ExtResource("1_h7og5")]
+[node name="blue character" parent="." unique_id=1375343869 instance=ExtResource("1_h7og5")]
 unique_name_in_owner = true
 position = Vector2(36, -563)
 
-<<<<<<< HEAD
 [node name="Camera2D" type="Camera2D" parent="blue character" unique_id=1010568406]
 
 [node name="red character" parent="." unique_id=102461780 instance=ExtResource("4_cj20n")]
-=======
-[node name="Camera2D" type="Camera2D" parent="blue_character" unique_id=467450685]
-
-[node name="red_character" parent="." unique_id=102461780 instance=ExtResource("4_cj20n")]
->>>>>>> 7cfc0b7d9f911595e86345b5c1ea27eb3b59e02d
 unique_name_in_owner = true
 position = Vector2(-26, -622)
