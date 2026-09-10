@@ -1,5 +1,7 @@
 78098b89c88a74ebe8c20117b8754620
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 ::res://::1788998706
 ::res://scenes/::1788998614
 blue_character.tscn::PackedScene::5237836185092541780::1788998542::0::1::::<><><>0<>0<><>::uid://iekg15j0nol5::::res://Scripts/blue_character.gd<>uid://ck27rtgk8gvt5::::res://Sprites/tag spritsheet.png<>uid://tteglb1mvo10::::res://Scripts/Tagging(blue).gd
@@ -10,6 +12,10 @@ tag_map_1.tscn::PackedScene::8061854640229235043::1788998542::0::1::::<><><>0<>0
 blue_character.gd::GDScript::570387557205683172::1788998542::0::1::::<>CharacterBody2D<><>0<>0<><>::
 double_jump.gd::GDScript::1763585311619483472::1788998542::0::1::::<>Area2D<><>0<>0<><>::
 =======
+=======
+>>>>>>> parent of 1cb2431 (;jlkhewdsafjkasdfjkdfsaj;sdhjsfkdfsjio;dsehjkw;df)
+=======
+>>>>>>> parent of 1cb2431 (;jlkhewdsafjkasdfjkdfsaj;sdhjsfkdfsjio;dsehjkw;df)
 ::res://::1788994926
 ::res://scenes/::1788980820
 blue character.tscn::PackedScene::5237836185092541780::1788971895::0::1::::<><><>0<>0<><>::uid://iekg15j0nol5::::res://Scripts/blue_character.gd<>uid://ck27rtgk8gvt5::::res://Sprites/tag spritsheet.png
@@ -19,6 +25,12 @@ tag_map_1.tscn::PackedScene::8061854640229235043::1788980820::0::1::::<><><>0<>0
 ::res://Scripts/::1788979936
 blue_character.gd::GDScript::570387557205683172::1788967109::0::1::::<>CharacterBody2D<><>0<>0<><>::
 double_jump.gd::GDScript::1763585311619483472::1788979893::0::1::::<>Area2D<><>0<>0<><>::
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1cb2431 (;jlkhewdsafjkasdfjkdfsaj;sdhjsfkdfsjio;dsehjkw;df)
+=======
+>>>>>>> parent of 1cb2431 (;jlkhewdsafjkasdfjkdfsaj;sdhjsfkdfsjio;dsehjkw;df)
+=======
 >>>>>>> parent of 1cb2431 (;jlkhewdsafjkasdfjkdfsaj;sdhjsfkdfsjio;dsehjkw;df)
 red_character.gd::GDScript::7308989635199727625::1788971491::0::1::::<>CharacterBody2D<><>0<>0<><>::
 ::res://Sprites/::1788968363
